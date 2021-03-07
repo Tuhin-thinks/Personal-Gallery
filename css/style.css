@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: rgb(12, 62, 116);
+    margin: 30px;
+}
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img{
+    height: 120px;
+    width: auto;
+    padding: 25px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    scale: 1.2;
+    
+}
+/* style added for image show from SO */
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .primary-btn {
+    background-image: -moz-linear-gradient(0deg, #235ee7 0%, #4ae7fa 100%);
+    background-image: -webkit-linear-gradient(0deg, #235ee7 0%, #4ae7fa 100%);
+    background-image: -ms-linear-gradient(0deg, #235ee7 0%, #4ae7fa 100%);
+  }
+  
+  .primary-btn {
+    line-height: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .primary-btn {
+    color: #fff;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .primary-btn:hover {
+    background: transparent;
+    color: #235ee7;
+    border-color: #235ee7;
+  }
